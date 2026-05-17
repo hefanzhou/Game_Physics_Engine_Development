@@ -1,0 +1,65 @@
+
+# Linux Object Files
+src/*.o
+lib/linux/*
+bin/linux/*
+
+
+# Prebuilt OSX Executables
+lib/osx64/*
+bin/osx64/*
+
+
+# Xcode Specific Files
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+*.moved-aside
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Windows / Build artifacts
+bin/win32/
+build/
+
+# Compiled binaries & intermediates
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.a
+*.so
+*.dylib
+*.ilk
+*.pdb
+*.idb
+*.bsc
+*.ipch
+*.pch
+*.exp
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.user
+*.aps
+*.tlog
+*.cache
+
+# Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+ipch/
