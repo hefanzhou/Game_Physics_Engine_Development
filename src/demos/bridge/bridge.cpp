@@ -107,6 +107,8 @@ massPos(0,0,0.5f)
         supports[i].restitution = 0.5f;
         world.getContactGenerators().push_back(&supports[i]);
     }
+    supports[8].maxLength = 1.0f;
+    supports[9].maxLength = 1.0f;
 
     rods = new cyclone::ParticleRod[ROD_COUNT];
     for (unsigned i = 0; i < 6; i++)

@@ -418,7 +418,7 @@ void FireworksDemo::display()
     // Clear the viewport and set the camera direction
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glLoadIdentity();
-    gluLookAt(0.0, 4.0, 10.0,  0.0, 4.0, 0.0,  0.0, 1.0, 0.0);
+    gluLookAt(0.0, 4.0, 20,  0.0, 4.0, 0.0,  0.0, 1.0, 0.0);
 
     // Render each firework in turn
     glBegin(GL_QUADS);

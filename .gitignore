@@ -23,3 +23,8 @@ bin/osx64/*
 !default.xcworkspace
 xcuserdata
 *.moved-aside
+/build/.idea
+/build/.vs
+/build/tmp
+/build/vs2010/.vs
+/tmp
