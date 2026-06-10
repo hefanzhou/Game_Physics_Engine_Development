@@ -28,3 +28,4 @@ xcuserdata
 /build/tmp
 /build/vs2010/.vs
 /tmp
+/doc/tools/__pycache__
