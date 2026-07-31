@@ -29,3 +29,17 @@ xcuserdata
 /build/vs2010/.vs
 /tmp
 /doc/tools/__pycache__
+
+# IDE / AI assistant metadata
+.codebuddy/
+.vscode/
+.idea/
+
+# Runtime logs
+*.log
+bin/log.txt
+build/log.txt
+build/log_kart.txt
+
+# Accidentally created files (Windows reserved device name)
+/nul
