@@ -54,6 +54,9 @@
     <ClCompile Include="..\src\random.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\vehicle_kart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\src\world.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -102,6 +105,9 @@
       <Filter>Header Files\cyclone</Filter>
     </ClInclude>
     <ClInclude Include="..\include\cyclone\random.h">
+      <Filter>Header Files\cyclone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cyclone\vehicle_kart.h">
       <Filter>Header Files\cyclone</Filter>
     </ClInclude>
     <ClInclude Include="..\include\cyclone\world.h">

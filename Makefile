@@ -14,7 +14,7 @@ RANLIB=ranlib
 
 # CYCLONEPHYSICS LIB
 CXXFLAGS=-O2 -Iinclude -fPIC
-CYCLONEOBJS=src/body.o src/collide_coarse.o src/collide_fine.o src/contacts.o src/core.o src/fgen.o src/joints.o src/particle.o src/pcontacts.o src/pfgen.o src/plinks.o src/pworld.o src/random.o src/world.o
+CYCLONEOBJS=src/body.o src/collide_coarse.o src/collide_fine.o src/contacts.o src/core.o src/fgen.o src/joints.o src/particle.o src/pcontacts.o src/pfgen.o src/plinks.o src/pworld.o src/random.o src/vehicle_kart.o src/world.o
 
 
 # DEMO FILES
@@ -24,7 +24,7 @@ CYCLONELIB=./lib/linux/$(LIBNAME)
 
 DEMO_CPP=./src/demos/app.cpp ./src/demos/timing.cpp ./src/demos/main.cpp
 
-DEMOS=ballistic bigballistic blob bridge explosion fireworks flightsim fracture platform ragdoll sailboat
+DEMOS=ballistic bigballistic blob bridge explosion fireworks flightsim fracture platform ragdoll sailboat vehicle
 
 
 # OUTPUT DIRECTORIES

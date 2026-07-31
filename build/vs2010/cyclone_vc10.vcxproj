@@ -122,6 +122,7 @@
     <ClCompile Include="..\src\plinks.cpp" />
     <ClCompile Include="..\src\pworld.cpp" />
     <ClCompile Include="..\src\random.cpp" />
+    <ClCompile Include="..\src\vehicle_kart.cpp" />
     <ClCompile Include="..\src\world.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -140,6 +141,7 @@
     <ClInclude Include="..\include\cyclone\precision.h" />
     <ClInclude Include="..\include\cyclone\pworld.h" />
     <ClInclude Include="..\include\cyclone\random.h" />
+    <ClInclude Include="..\include\cyclone\vehicle_kart.h" />
     <ClInclude Include="..\include\cyclone\world.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
